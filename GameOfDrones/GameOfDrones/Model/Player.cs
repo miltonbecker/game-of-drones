@@ -9,6 +9,8 @@ namespace GameOfDrones.Models
     {
 
         public string Name { get; set; }
+        public string RoundMove { get; set; }
+        public int RoundsWon { get; set; }
 
     }
 }

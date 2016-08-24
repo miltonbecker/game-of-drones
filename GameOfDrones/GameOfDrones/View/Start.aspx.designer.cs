@@ -31,15 +31,6 @@ namespace GameOfDrones {
         protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
         
         /// <summary>
-        /// Player1Label control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Player1Label;
-        
-        /// <summary>
         /// Player1TextBox control.
         /// </summary>
         /// <remarks>
@@ -56,15 +47,6 @@ namespace GameOfDrones {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator Player1Validator;
-        
-        /// <summary>
-        /// Player2Label control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Player2Label;
         
         /// <summary>
         /// Player2TextBox control.

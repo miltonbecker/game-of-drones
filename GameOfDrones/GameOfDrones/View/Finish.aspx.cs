@@ -19,7 +19,7 @@ namespace GameOfDrones
 
         protected void PlayAgainButton_Click(object sender, EventArgs e)
         {
-            Server.Transfer("~/Default.aspx");
+            Server.Transfer("~/View/Start.aspx");
         }
     }
 }

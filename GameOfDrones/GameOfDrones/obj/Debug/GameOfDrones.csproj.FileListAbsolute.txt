@@ -28,6 +28,6 @@ C:\Users\milto\ProjectsWindows\game-of-drones\GameOfDrones\GameOfDrones\bin\Micr
 C:\Users\milto\ProjectsWindows\game-of-drones\GameOfDrones\GameOfDrones\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\milto\ProjectsWindows\game-of-drones\GameOfDrones\GameOfDrones\bin\Microsoft.ApplicationInsights.xml
 C:\Users\milto\ProjectsWindows\game-of-drones\GameOfDrones\GameOfDrones\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\milto\ProjectsWindows\game-of-drones\GameOfDrones\GameOfDrones\obj\Debug\GameOfDrones.csprojResolveAssemblyReference.cache
 C:\Users\milto\ProjectsWindows\game-of-drones\GameOfDrones\GameOfDrones\obj\Debug\GameOfDrones.dll
 C:\Users\milto\ProjectsWindows\game-of-drones\GameOfDrones\GameOfDrones\obj\Debug\GameOfDrones.pdb
+C:\Users\milto\ProjectsWindows\game-of-drones\GameOfDrones\GameOfDrones\obj\Debug\GameOfDrones.csprojResolveAssemblyReference.cache

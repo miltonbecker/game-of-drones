@@ -94,7 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Finish.aspx" />
+    <Content Include="View\Finish.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -107,39 +107,40 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Start.aspx" />
-    <Content Include="Match.aspx" />
+    <Content Include="View\Start.aspx" />
+    <Content Include="View\Match.aspx" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Start.aspx.cs">
+    <Compile Include="View\Start.aspx.cs">
       <DependentUpon>Start.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Start.aspx.designer.cs">
+    <Compile Include="View\Start.aspx.designer.cs">
       <DependentUpon>Start.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Finish.aspx.cs">
+    <Compile Include="View\Finish.aspx.cs">
       <DependentUpon>Finish.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Finish.aspx.designer.cs">
+    <Compile Include="View\Finish.aspx.designer.cs">
       <DependentUpon>Finish.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Match.aspx.cs">
+    <Compile Include="View\Match.aspx.cs">
       <DependentUpon>Match.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Match.aspx.designer.cs">
+    <Compile Include="View\Match.aspx.designer.cs">
       <DependentUpon>Match.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Models\Moves.cs" />
-    <Compile Include="Models\Player.cs" />
+    <Compile Include="Model\Rules.cs" />
+    <Compile Include="Model\Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\Game.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

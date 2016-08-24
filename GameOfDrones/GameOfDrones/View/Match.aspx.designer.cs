@@ -22,15 +22,6 @@ namespace GameOfDrones {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// RoundNameLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label RoundNameLabel;
-        
-        /// <summary>
         /// RoundNumberLabel control.
         /// </summary>
         /// <remarks>
@@ -49,15 +40,6 @@ namespace GameOfDrones {
         protected global::System.Web.UI.WebControls.Label PlayerLabel;
         
         /// <summary>
-        /// SelectMoveLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label SelectMoveLabel;
-        
-        /// <summary>
         /// MovesDropDown control.
         /// </summary>
         /// <remarks>
@@ -67,6 +49,15 @@ namespace GameOfDrones {
         protected global::System.Web.UI.WebControls.DropDownList MovesDropDown;
         
         /// <summary>
+        /// ObjectDataSource1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSource1;
+        
+        /// <summary>
         /// OkButton control.
         /// </summary>
         /// <remarks>
@@ -74,15 +65,6 @@ namespace GameOfDrones {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button OkButton;
-        
-        /// <summary>
-        /// ScoreLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ScoreLabel;
         
         /// <summary>
         /// GridView1 control.

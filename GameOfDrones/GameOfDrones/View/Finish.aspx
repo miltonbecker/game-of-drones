@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Finish.aspx.cs" Inherits="GameOfDrones.Finish" %>
 
-<%@ PreviousPageType VirtualPath="~/Match.aspx" %>
+<%@ PreviousPageType VirtualPath="~/View/Match.aspx" %>
 
 <!DOCTYPE html>
 
@@ -12,13 +12,15 @@
     <form id="form1" runat="server">
     <div>
     
-        <asp:Label ID="HeaderLabel" runat="server" Text="We have a WINNER!!"></asp:Label>
-        <br />
-        <br />
-        <asp:Label ID="WinnerNameLabel" runat="server"></asp:Label>
-&nbsp;<asp:Label ID="EmperorLabel" runat="server" Text="is the new EMPEROR!"></asp:Label>
-        <br />
-        <br />
+        <h1>
+            We have a WINNER!!
+        </h1>
+
+        <h1>
+            <asp:Label ID="WinnerNameLabel" runat="server"></asp:Label>
+            &nbsp;is the new EMPEROR!
+       </h1>
+        
         <asp:Button ID="PlayAgainButton" runat="server" Text="Play Again" OnClick="PlayAgainButton_Click" />
     
     </div>
